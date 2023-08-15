@@ -17,15 +17,15 @@ namespace TrybeHotel.Controllers
         {
             _repository = repository;
         }
-        
+    
         [HttpGet]
         public IActionResult GetHotels(){
-            throw new NotImplementedException();
+            return Ok(_repository.GetHotels());
         }
 
         [HttpPost]
         public IActionResult PostHotel([FromBody] Hotel hotel){
-            throw new NotImplementedException();
+            return Created("", _repository.AddHotel(hotel));
         }
 
 

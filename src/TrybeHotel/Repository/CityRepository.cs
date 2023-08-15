@@ -13,12 +13,35 @@ namespace TrybeHotel.Repository
 
         public IEnumerable<CityDto> GetCities()
         {
-            throw new NotImplementedException();
+            var allCities = (
+                from city in _context.Cities
+                select new CityDto
+                {
+                    cityId = city.CityId,
+                    name = city.Name,
+                }
+            );
+
+            return allCities;
         }
 
         public CityDto AddCity(City city)
         {
-            throw new NotImplementedException();
+            var cityAdd = new City
+            {
+                Name = city.Name
+            };
+
+            _context.Cities.Add(cityAdd);
+            _context.SaveChanges();
+
+            var cityAddDto = new CityDto
+            {
+                cityId = cityAdd.CityId,
+                name = cityAdd.Name
+            };
+
+            return cityAddDto;
         }
 
     }
