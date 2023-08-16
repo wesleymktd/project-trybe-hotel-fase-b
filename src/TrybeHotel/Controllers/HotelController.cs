@@ -9,6 +9,7 @@ namespace TrybeHotel.Controllers
 {
     [ApiController]
     [Route("hotel")]
+    // [Authorize(Policy = "Admin")]
     public class HotelController : Controller
     {
         private readonly IHotelRepository _repository;
@@ -24,6 +25,7 @@ namespace TrybeHotel.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "Admin")]
         public IActionResult PostHotel([FromBody] Hotel hotel){
             return Created("", _repository.AddHotel(hotel));
         }
