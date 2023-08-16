@@ -25,6 +25,7 @@ namespace TrybeHotel.Repository
             {
                 Name = user.Name,
                 Email = user.Email,
+                Password = user.Password,
                 UserType = "client"
             };
 

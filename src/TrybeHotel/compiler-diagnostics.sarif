@@ -57,9 +57,9 @@
               "resultFile": {
                 "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/UserRepository.cs",
                 "region": {
-                  "startLine": 50,
+                  "startLine": 51,
                   "startColumn": 24,
-                  "endLine": 50,
+                  "endLine": 51,
                   "endColumn": 28
                 }
               }
