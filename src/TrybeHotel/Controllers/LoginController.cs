@@ -13,14 +13,25 @@ namespace TrybeHotel.Controllers
     {
 
         private readonly IUserRepository _repository;
-        public LoginController(IUserRepository repository)
+        private readonly TokenGenerator _tokenGenerator;
+        public LoginController(IUserRepository repository, TokenGenerator tokenGenerator)
         {
             _repository = repository;
+            _tokenGenerator = tokenGenerator;
         }
 
         [HttpPost]
         public IActionResult Login([FromBody] LoginDto login){
-           throw new NotImplementedException();   
+           var user = _repository.Login(login);
+
+           if (user == null)
+           {
+            return Unauthorized(new { message = "Incorrect e-mail or password" });
+           }
+           
+           var token = _tokenGenerator.Generate(user);
+
+           return Ok(new { token });  
         }
     }
 }
