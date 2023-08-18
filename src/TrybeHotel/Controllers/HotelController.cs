@@ -9,7 +9,6 @@ namespace TrybeHotel.Controllers
 {
     [ApiController]
     [Route("hotel")]
-    // [Authorize(Policy = "Admin")]
     public class HotelController : Controller
     {
         private readonly IHotelRepository _repository;

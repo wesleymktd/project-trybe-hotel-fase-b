@@ -49,216 +49,6 @@
           }
         },
         {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'userEmail' em 'UserDto IUserRepository.GetUserByEmail(string userEmail)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 30,
-                  "startColumn": 57,
-                  "endLine": 30,
-                  "endColumn": 67
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 25,
-                  "endLine": 5,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'image' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 25,
-                  "endLine": 7,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'hotel' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 27,
-                  "endLine": 8,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 23,
-                  "endLine": 5,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'address' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'cityName' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/CityDto.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 23,
-                  "endLine": 5,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'email' em 'BookingResponse IBookingRepository.Add(BookingDtoInsert booking, string email)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/BookingController.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 66,
-                  "endLine": 28,
-                  "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'email' em 'BookingResponse IBookingRepository.GetBooking(int bookingId, string email)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/BookingController.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 69,
-                  "endLine": 44,
-                  "endColumn": 74
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS8603",
           "level": "warning",
           "message": "Possível retorno de referência nula.",
@@ -502,6 +292,69 @@
                   "startColumn": 12,
                   "endLine": 16,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 35,
+                  "endLine": 27,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 36,
+                  "endLine": 31,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 32,
+                  "endLine": 23,
+                  "endColumn": 42
                 }
               }
             }
@@ -763,18 +616,18 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
+          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/RoomRepository.cs",
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
                 "region": {
-                  "startLine": 27,
-                  "startColumn": 35,
-                  "endLine": 27,
-                  "endColumn": 45
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 29
                 }
               }
             }
@@ -784,18 +637,18 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
+          "message": "O propriedade não anulável 'image' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/RoomRepository.cs",
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
                 "region": {
-                  "startLine": 31,
-                  "startColumn": 36,
-                  "endLine": 31,
-                  "endColumn": 51
+                  "startLine": 7,
+                  "startColumn": 25,
+                  "endLine": 7,
+                  "endColumn": 30
                 }
               }
             }
@@ -805,18 +658,165 @@
           }
         },
         {
-          "ruleId": "CS8602",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
+          "message": "O propriedade não anulável 'hotel' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/HotelRepository.cs",
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/RoomDto.cs",
                 "region": {
-                  "startLine": 23,
-                  "startColumn": 32,
-                  "endLine": 23,
-                  "endColumn": 42
+                  "startLine": 8,
+                  "startColumn": 27,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "O propriedade não anulável 'address' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "O propriedade não anulável 'cityName' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "O propriedade não anulável 'name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/CityDto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'userEmail' em 'UserDto IUserRepository.GetUserByEmail(string userEmail)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/UserController.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 57,
+                  "endLine": 30,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'email' em 'BookingResponse IBookingRepository.Add(BookingDtoInsert booking, string email)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/BookingController.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 66,
+                  "endLine": 28,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'email' em 'BookingResponse IBookingRepository.GetBooking(int bookingId, string email)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/wesley/projetos/C%23/csharp-026-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Controllers/BookingController.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 69,
+                  "endLine": 44,
+                  "endColumn": 74
                 }
               }
             }
