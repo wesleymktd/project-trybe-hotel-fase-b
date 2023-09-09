@@ -52,6 +52,7 @@ O projeto Trybe Hotel se trata da implementação de uma Api de um site de reser
     - O corpo da requisição é vazio
 
 ### Adicionar autorização às rotas protegidas
+### Testes automatizados
 
 ## ⚒ Instalando <a name = "installing"></a>
 
