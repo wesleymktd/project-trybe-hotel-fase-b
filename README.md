@@ -51,6 +51,8 @@ O projeto Trybe Hotel se trata da implementação de uma Api de um site de reser
   - Rota de listagem de reserva GET /booking/:id
     - O corpo da requisição é vazio
 
+### Adicionar autorização às rotas protegidas
+
 ## ⚒ Instalando <a name = "installing"></a>
 
 ```bash
