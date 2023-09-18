@@ -16,15 +16,14 @@ O projeto Trybe Hotel se trata da implementação de uma Api de um site de reser
 ```
 ### Login
   - Rota Login POST /login
-    - O corpo da resposta deve seguir o formato abaixo:
+    - O corpo da requisição deve seguir o formato abaixo:
 
 ```json
-[
     {
 	"Email": "rebeca.santos@trybehotel.com",
 	"Password": "123456"
     }
-]
+
 ```
   - Rota de cadastro de Hoteis POST /hotel
     - O corpo da requisição deve seguir o padrão abaixo
